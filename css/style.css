@@ -7597,8 +7597,9 @@ textarea.enq-ctrl.enq-textarea {
   }
 
   .slbl {
-    font-size: 0.72rem !important;
-    letter-spacing: 1px !important;
+    font-size: clamp(1.25rem, 4.8vw, 1.45rem) !important;
+    letter-spacing: normal !important;
+    margin-bottom: 2px !important;
   }
 
   .sdesc {
